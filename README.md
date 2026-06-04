@@ -30,8 +30,10 @@
         self.location = "Malaysia"
         self.roles = ["Data Analyst", "DevOps Enthusiast", "Cloud Practitioner"]
 ```
-
+```
     # ================== DATA ANALYSIS ==========================
+```
+
 ```python
     class DataAnalysis:
         """Tools & projects for data analytics – beginner‑friendly Python."""
