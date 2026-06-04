@@ -1,4 +1,4 @@
-## $ whoami Donovan Donz
+## $ whoami > Donovan Donz
 
 ```text
 ╔══════════════════════════════════════════════════════════╗
