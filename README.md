@@ -1,4 +1,4 @@
-## $ whoami  I'm Donovan Donz
+## $ whoami Donovan Donz
 
 ```text
 ╔══════════════════════════════════════════════════════════╗
