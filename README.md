@@ -92,7 +92,7 @@
             return ["Python", "python-telegram-bot", "asyncio", "Local file system"]
 ```
 
-    # ================== CERTIFICATIONS (actual) ==================
+    # ================== CERTIFICATIONS  ======================
 ```python
     class Certifications:
         """Professional certifications earned – 2025–2026."""
