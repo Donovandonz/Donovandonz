@@ -12,7 +12,7 @@
         self.roles = ["Data Analyst", "DevOps Enthusiast", "Cloud Practitioner"]
 ```
 
-    # ================== DATA ANALYSIS ==================
+    # ================== DATA ANALYSIS ==========================
 ```python
     class DataAnalysis:
         """Tools & projects for data analytics – beginner‑friendly Python."""
@@ -30,7 +30,7 @@
                 "Python Learning": "Cleaned a small dataset with pandas and made a bar chart with matplotlib"
             }
 ```
-    # ================== DEVOPS ==================
+    # ================== DEVOPS ============================
 ```python
     class DevOps:
         """CI/CD, observability, Kubernetes (Minikube), Prometheus stack."""
@@ -52,7 +52,7 @@
                 "Next steps": "Learning Terraform and log aggregation (Loki)"
             }
 ```
-    # ================== CLOUD INFRASTRUCTURE ==================
+    # ================== CLOUD INFRASTRUCTURE ========================
 ```python
     class CloudInfrastructure:
         """Personal cloud‑like infrastructure using Telegram bot – hosted on own laptop/PC (vibe coding project)."""
@@ -132,7 +132,7 @@
                 "Data Analytics Essentials (Cisco)"
             ]
 ```
-    # ================== EDUCATION (placeholder) ==================
+    # ================== EDUCATION  ===========================
 ```python
     class Education:
         """Academic background"""
