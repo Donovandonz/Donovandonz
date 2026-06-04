@@ -18,7 +18,7 @@
 ║   > Fetching snacks for debugging...   [ALMOST]          ║
 ║   > Hiding evidence of copy-paste...   [IN PROGRESS]     ║
 ╚══════════════════════════════════════════════════════════╝
-   
+```   
     
 ```
     A multi‑domain technical portfolio.
@@ -30,10 +30,8 @@
         self.location = "Malaysia"
         self.roles = ["Data Analyst", "DevOps Enthusiast", "Cloud Practitioner"]
 ```
-```
-    # ================== DATA ANALYSIS ==========================
-```
 
+    # ================== DATA ANALYSIS ==========================
 ```python
     class DataAnalysis:
         """Tools & projects for data analytics – beginner‑friendly Python."""
