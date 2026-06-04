@@ -1,114 +1,157 @@
-## Hi there 👋
-
-<!--
-# 👋 Hi, I'm Donovan Donz
-
-```python
-"""
-Donovan Donz – Technical Portfolio (Data, DevOps, Cloud)
-Location: Malaysia
-Open to: Data Analyst / DevOps / Cloud roles
-"""
-
-class DonovanDonzPortfolio:
-    """
+## Hi there 👋 I'm Donovan Donz
+   
+    
+```
     A multi‑domain technical portfolio.
-    Focus: Data analytics, DevOps pipelines, Cloud infrastructre solutions.
-    """
-
+    Focus: Data analytics, DevOps pipelines, Cloud infrastructure solutions.
+```
+```
     def __init__(self):
         self.name = "Donovan Donz"
         self.location = "Malaysia"
         self.roles = ["Data Analyst", "DevOps Enthusiast", "Cloud Practitioner"]
+```
 
     # ================== DATA ANALYSIS ==================
+```python
     class DataAnalysis:
-        """Tools & projects for data analytics and visualisation."""
+        """Tools & projects for data analytics – beginner‑friendly Python."""
 
         @staticmethod
         def tools() -> list:
-            return ["Excel (Advanced)", "SQL", "Tableau", "Power BI", "Python (pandas, numpy, matplotlib, seaborn)"]
+            return ["Excel (intermediate)", "SQL (basic queries)", "Tableau (starter)", "Power BI (starter)", "Python (beginner – pandas, matplotlib)"]
 
         @staticmethod
         def projects() -> dict:
             return {
-                "Sales Dashboard": "Power BI + SQL – real‑time KPIs and forecasting",
-                "Python Learning": "Cleaned a small dataset with pandas and made a bar chart with matplotlib",
-                "Market Story": "Tableau – interactive story on gaming industry trends (public dataset)",
-                "Excel Automation": "VBA macros + Power Query – automated monthly reporting"
+                "Excel Practice": "Created a personal budget tracker with pivot tables and charts",
+                "SQL Basics": "Wrote SELECT, JOIN, GROUP BY queries on a sample sales database",
+                "Power BI Demo": "Built a simple dashboard from a CSV file (superstore dataset)",
+                "Python Learning": "Cleaned a small dataset with pandas and made a bar chart with matplotlib"
             }
-
+```
     # ================== DEVOPS ==================
+```python
     class DevOps:
-        """CI/CD, containerisation, orchestration, infrastructure as code."""
+        """CI/CD, observability, Kubernetes (Minikube), Prometheus stack."""
 
         @staticmethod
         def tools() -> list:
-            return ["Git/GitHub Actions", "Docker", "Kubernetes (K3s)", "Terraform (basic)", "Linux (Ubuntu)"]
+            return ["Git/GitHub Actions", "Docker", "Kubernetes (Minikube)", "Helm", "Prometheus", "Grafana", "Alertmanager"]
 
         @staticmethod
         def projects() -> dict:
             return {
-                "CI/CD Pipeline": "GitHub Actions → Docker Hub → self‑hosted server",
-                "Home K3s Cluster": "Deployed a REST API with auto‑scaling and monitoring",
-                "Terraform VM": "Provisioned a cloud VM (Oracle Cloud / Scaleway) from scratch"
+                "CI/CD Pipeline": "Auto‑deployment on push – GitHub Actions builds and pushes Docker image",
+                "Observability Pipeline (Flask + K8s)": """
+                    Deployed a Python Flask app with 2 replicas on Minikube (NodePort).
+                    Installed kube-prometheus-stack via Helm.
+                    Created custom Grafana dashboards to visualise CPU & memory usage of the Flask app.
+                    Includes Prometheus metrics and Alertmanager for basic alerting.
+                """,
+                "Next steps": "Learning Terraform and log aggregation (Loki)"
             }
-
-    # ================== CLOUD – TELEGRAM STORAGE ==================
-    class CloudTelegramStorage:
-        """Custom cloud solution using Telegram Bot API and object storage."""
+```
+    # ================== CLOUD INFRASTRUCTURE ==================
+```python
+    class CloudInfrastructure:
+        """Personal cloud‑like infrastructure using Telegram bot – hosted on own laptop/PC (vibe coding project)."""
 
         @staticmethod
         def description() -> str:
             return """
-            A personal cloud storage system built with:
-            - Python + aiogram (Telegram bot framework)
-            - S3‑compatible object storage (Minio / AWS S3)
-            - Docker container running on a VPS
-            Features: password‑protected upload/download, temporary shareable links, auto backup.
+            A fun, personal infrastructure project built while vibe coding on my own laptop/PC.
+            - Telegram bot (Python + python-telegram-bot) that acts as a file storage interface.
+            - Files are saved locally on my machine (no external cloud).
+            - Features: upload, download, list files, basic password protection.
+            - Running 24/7 on my personal computer (when it's on).
+            Perfect for learning how bots, file handling, and async Python work together.
             """
 
         @staticmethod
         def stack() -> list:
-            return ["Python", "aiogram", "Docker", "Minio", "Telegram Bot API", "SQLite (metadata)"]
+            return ["Python", "python-telegram-bot", "asyncio", "Local file system"]
+```
 
-    # ================== EDUCATION ==================
+    # ================== CERTIFICATIONS (actual) ==================
+```python
+    class Certifications:
+        """Professional certifications earned – 2025–2026."""
+
+        @staticmethod
+        def list_certs() -> dict:
+            return {
+                "Hands On Linux System Administration": {
+                    "issuer": "MindLuster",
+                    "date": "Apr 2026",
+                    "credential_id": "4fb23d1a"
+                },
+                "Cloud Computing": {
+                    "issuer": "MindLuster",
+                    "date": "Apr 2026",
+                    "credential_id": "fcf429fd"
+                },
+                "Fundamentals of data visualization: Crafting Compelling Stories with Data": {
+                    "issuer": "The World Bank Group",
+                    "date": "Mar 2026",
+                    "credential_id": "69cb6ab7a4e24352d40fd594"
+                },
+                "AWS Cloud Practitioner Essential": {
+                    "issuer": "Simplilearn",
+                    "date": "Mar 2026",
+                    "credential_id": "9933677"
+                },
+                "Enterprise Data Science in Practice": {
+                    "issuer": "IBM",
+                    "date": "Feb 2026",
+                    "credential_id": "9d37489e-9f9d-42a6-9d51-0c9380a3fc1e"
+                },
+                "Google Analytics Certification": {
+                    "issuer": "Google Digital Academy (Skillshop)",
+                    "date": "Jan 2026",
+                    "expires": "Jan 2027",
+                    "credential_id": "173277266"
+                },
+                "Data Analytics Essentials": {
+                    "issuer": "Cisco Networking Academy",
+                    "date": "Jan 2026",
+                    "credential_id": "d57b5282-8e34-4577-9e55-f8cb6373c2dd",
+                    "skills": ["Data Analysis", "Microsoft Excel"]
+                }
+            }
+
+        @staticmethod
+        def summary() -> list:
+            return [
+                "Linux System Administration (MindLuster)",
+                "Cloud Computing (MindLuster)",
+                "Data Visualization – World Bank",
+                "AWS Cloud Practitioner Essentials (Simplilearn)",
+                "Enterprise Data Science (IBM)",
+                "Google Analytics Certified",
+                "Data Analytics Essentials (Cisco)"
+            ]
+```
+    # ================== EDUCATION (placeholder) ==================
+```python
     class Education:
-        """Academic background (example – adapt to your real education)."""
+        """Academic background"""
 
         @staticmethod
         def degrees() -> list:
             return [
-                "Bachelor’s in Computer Science (Data Analytics track) – Malaysia",
-                "Professional Certifications: Google Data Analytics, AWS Cloud Practitioner (in progress)"
+                "Bachelor’s in Computer Science (Data Analytics track) – Malaysia (placeholder)",
+                "Self‑directed learning: Linux, AWS, Python, DevOps tools"
             ]
-
+```
     # ================== WHAT I'M LOOKING FOR ==================
+```python
     @staticmethod
     def open_to() -> dict:
         return {
-            "Roles": ["Data Analyst", "Data Engineer", "Junior DevOps", "Cloud Support"],
+            "Roles": ["Data Analyst", "Junior DevOps", "Cloud Support"],
             "Commitment": "Internship / Full‑time / Freelance",
             "Availability": "Immediate",
             "Location": "Malaysia (remote or on‑site)"
         }
-
-
-if __name__ == "__main__":
-    me = DonovanDonzPortfolio()
-    print("📊 Data tools:", me.DataAnalysis.tools())
-    print("🛠️ DevOps tools:", me.DevOps.tools())
-    print("☁️ Cloud stack:", me.CloudTelegramStorage.stack())
-    print("🎯 Open to:", me.open_to()["Roles"])**Donovandonz/Donovandonz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```
