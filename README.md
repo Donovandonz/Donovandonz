@@ -14,7 +14,7 @@
 ║             ||||||                                       ║
 ║             ||||||                                       ║
 ║   > Initializing Python environment... [DONE] (mostly)   ║
-║   > Loading DevOps pipeline...        [DONE]  (I think)  ║
+║   > Loading DevOps pipeline...         [DONE] (I think)  ║
 ║   > Fetching snacks for debugging...   [ALMOST]          ║
 ║   > Hiding evidence of copy-paste...   [IN PROGRESS]     ║
 ╚══════════════════════════════════════════════════════════╝
