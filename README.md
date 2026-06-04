@@ -1,11 +1,30 @@
-## Hi there 👋 I'm Donovan Donz
+## $ whoami  I'm Donovan Donz
+
+```text
+╔══════════════════════════════════════════════════════════╗
+║  SYSTEM:  DONOVAN DONZ    │  STATUS:  [ ACTIVE ]         ║
+║  UPTIME:  99.9%           |  ENERGY:  CAFFEINE           ║
+║  LOCATION: Malaysia       │  LOAD:    ██████████  1001%  ║
+║    | |                                                   ║
+║    | |===( )   //////                                    ║
+║    |_|   |||  | o o|      TECHNICAL PORTFOLIO            ║
+║           ||| (  > )      Data · DevOps · Cloud          ║
+║            ||| \= /                                      ║
+║             ||||||                                       ║
+║             ||||||                                       ║
+║             ||||||                                       ║
+║   > Initializing Python environment... [DONE] (mostly)   ║
+║   > Loading DevOps pipeline...        [DONE]  (I think)  ║
+║   > Fetching snacks for debugging...   [ALMOST]          ║
+║   > Hiding evidence of copy-paste...   [IN PROGRESS]     ║
+╚══════════════════════════════════════════════════════════╝
    
     
 ```
     A multi‑domain technical portfolio.
     Focus: Data analytics, DevOps pipelines, Cloud infrastructure solutions.
-```
-```
+
+
     def __init__(self):
         self.name = "Donovan Donz"
         self.location = "Malaysia"
@@ -155,3 +174,4 @@
             "Location": "Malaysia (remote or on‑site)"
         }
 ```
+## > You are not in the sudoers file. This incident will be reported 
