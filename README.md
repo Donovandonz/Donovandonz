@@ -29,7 +29,7 @@
         return {
             "Roles": ["Data Analyst", "Junior DevOps", "Cloud Support"],
             "Commitment": "Internship / Full‑time / Freelance",
-            "Availability": "Immediate",
+            "Availability": "Depend",
             "Location": "Malaysia (remote or on‑site)"
         }
 ```
